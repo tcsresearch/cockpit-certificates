@@ -37,7 +37,7 @@ COCKPIT_REPO_FILES = \
 	$(NULL)
 
 COCKPIT_REPO_URL = https://github.com/cockpit-project/cockpit.git
-COCKPIT_REPO_COMMIT = 6073b2703acd68e216bd9dbc116c30d2d7a9701c # 288 + esbuild-common
+COCKPIT_REPO_COMMIT = efcf647c8580388d907af512c6c4727c95609c58 # 293 + 21 commits
 
 $(COCKPIT_REPO_FILES): $(COCKPIT_REPO_STAMP)
 COCKPIT_REPO_TREE = '$(strip $(COCKPIT_REPO_COMMIT))^{tree}'
