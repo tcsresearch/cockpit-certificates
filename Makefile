@@ -35,7 +35,7 @@ COCKPIT_REPO_FILES = \
 	$(NULL)
 
 COCKPIT_REPO_URL = https://github.com/cockpit-project/cockpit.git
-COCKPIT_REPO_COMMIT = 05fc2d8f0670c3d53375b52065ace5f39c0322e5 # 306 + 15 commits
+COCKPIT_REPO_COMMIT = cf2485d79da7fb9be262eaa4ca5ef91e57a03a75 # 308 + 5 commits
 
 $(COCKPIT_REPO_FILES): $(COCKPIT_REPO_STAMP)
 COCKPIT_REPO_TREE = '$(strip $(COCKPIT_REPO_COMMIT))^{tree}'
